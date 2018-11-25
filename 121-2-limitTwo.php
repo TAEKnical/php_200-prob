@@ -1,5 +1,5 @@
 <?php
-//SELECT 필드명 FROM 테이블명 LIMIT 불러올레코드순번(페이지) 불러올개수
+//SELECT 필드명 FROM 테이블명 LIMIT 시작할순번(0부터) 불러올개수
   include $_SERVER["DOCUMENT_ROOT"]."/php200/108-2-connectDB.php";
 
   $sql = "SELECT name,userId FROM myMember LIMIT 2,3";

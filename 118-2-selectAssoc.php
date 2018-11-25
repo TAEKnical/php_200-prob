@@ -2,7 +2,7 @@
   include $_SERVER["DOCUMENT_ROOT"]."/php200/108-2-connectDB.php";
 
   $sql = "SELECT name, userId FROM myMember";
-  $result = $dbConnect->query($sql);
+  $result = $db Connect->query($sql);
 
   $dataCount = $result->num_rows;
 
